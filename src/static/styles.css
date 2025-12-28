@@ -74,6 +74,40 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants section inside activity cards */
+.activity-card .participants {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background: linear-gradient(180deg,#ffffff,#f7f9fc);
+  border: 1px solid #e6eef8;
+}
+
+.activity-card .participants h5 {
+  margin: 0 0 6px 0;
+  font-size: 0.95rem;
+  color: #0b3d91;
+  font-weight: 600;
+}
+
+.activity-card .participants ul {
+  margin: 6px 0 0 18px;
+  padding: 0;
+  list-style: disc;
+  color: #333;
+}
+
+.activity-card .participants li {
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.activity-card .participants .participants-none {
+  margin: 0;
+  color: #6b7280;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
