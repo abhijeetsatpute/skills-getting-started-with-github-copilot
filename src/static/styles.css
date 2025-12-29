@@ -91,10 +91,34 @@ section h3 {
 }
 
 .activity-card .participants ul {
-  margin: 6px 0 0 18px;
+  margin: 6px 0 0 0;
   padding: 0;
-  list-style: disc;
+  list-style: none;
   color: #333;
+}
+
+.activity-card .participants .participant-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 2px 0;
+}
+
+.activity-card .participants .remove-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px 8px;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.activity-card .participants .remove-btn:hover {
+  background: #fff0f0;
 }
 
 .activity-card .participants li {
